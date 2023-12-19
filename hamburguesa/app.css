@@ -1,0 +1,29 @@
+.claro{
+    background-color: #dddddd;
+}
+.oscuro{
+    background-color: black;
+}
+.oscuro .card{
+    background-color: rgba(67, 59, 59, 0.2);
+    color: white;
+}
+.oscuro .btn{
+    background-color: rgba(0, 0, 0, 0.61);
+}
+.oscuro .foo{
+    background-color: rgba(0, 0, 0, 0.228);
+}
+.Nombreproducto{
+    font-size: 16px;
+}
+.Descripcionproducto {
+    font-size: 12px;
+}
+.btn{
+    width: 100%;
+}
+.foo {
+    background-color: brown;
+    color: #fff;
+}
