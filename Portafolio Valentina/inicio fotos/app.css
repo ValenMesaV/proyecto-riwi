@@ -1,0 +1,12 @@
+.masculino{
+    background-color: rgb(83, 136, 228);
+    color: rgb(109, 46, 46);
+}
+
+.femenino{
+    background-color: pink;
+    color: rgb(128, 215, 215);
+}
+body{
+    background-color: rgb(170, 142, 108);
+}

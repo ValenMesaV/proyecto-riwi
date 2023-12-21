@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    Hola <span id="nombre"></span> Bienvenido
+    <br>
+            <button onclick="CerrarSesion()">Cerrar sesion</button>
+
+    <script>
+
+        let auth = sessionStorage.getItem('auth');
+        let nombre = sessionStorage.getItem('nombre');
+        document.getElementById('nombre').innerText = nombre;
+        if(auth != "si"){
+            location.href = "home.html";
+        }
+        function CerrarSesion(){
+            sessionStorage.setItem("nombre", "");
+            sessionStorage.setItem("auth", "");
+            location.href = "index.html"
+        }
+    </script>
+</body>
+</html>

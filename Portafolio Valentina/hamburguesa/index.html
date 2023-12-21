@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburuesa</title>
+    <link rel="stylesheet" href="./app.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+</head>
+<body id="temas" class="claro" >
+    <section>
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-6">
+                <select onchange="idiomaIngles()" name="" class="form-select" id="idioma">
+                    <option value="" disabled> selecionar</option>
+                    <option value="en">1. Ingles</option>
+                    <option value="es">2. Español</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <select onchange="temaClaro()" name="" class="form-select" id="tema">
+                    <option value="" disabled> selcionar</option>
+                    <option value="os">1. Oscuro</option>
+                    <option value="cla">2. Claro</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 my-4">
+                <div class="card h-100">
+                    <img src="./images/hamburguesa-1.webp" alt="">
+                    <div class="card-body">
+                        <sap class="precio"><strong> $ 8900</strong></sap>
+                        <h2 class="Nombreproducto"><strong>BBQ Crunch</strong></h2>
+                        <p class="Descripcionproducto">1 Sandwich BBQ Crunch (1 Filete de pollo apanado)</p><br>
+                        <button class="btn btn-danger" type="button"> Comprar</button>
+                    </div>                    
+                </div>
+            </div>
+            
+            <div class="col-md-3 my-4">
+                <div class="card h-100">
+                    <img src="./images/hamburguesa-2.webp"alt="">
+                    <div class="card-body">
+                        <sap class="precio"><strong> $ 15900</strong></sap>
+                        <h2 class="Nombreproducto"><strong>Kentucky Sandwich</strong></h2>
+                        <p class="Descripcionproducto">1 Kentucky hamburguesa / sandwinch (1 Filete de pechuga de pollo apanado, pepinillos,..)</p>
+                        <button class="btn btn-danger" type="button"> Comprar</button>
+                        <br><br>
+                    </div>
+                    
+                </div>
+            
+            </div>
+            <div class="col-md-3 my-4" >
+                <div class="card h-100">
+                    <img src="./images/hamburguesa-3.webp"alt="">
+                    <div class="card-body">
+                        <sap class="precio"><strong> $ 15900</strong></sap>
+                        <h2 class="Nombreproducto"><strong>Combo BBQ Crunch</strong></h2>
+                        <p class="Descripcionproducto">1 Sandwich bbq Crunch (1 Filete de pollo apanado) +  1 Papa Pequeña + 1 Gasesosa PET...</p>
+                        <button class="btn btn-danger" type="button"> Comprar</button>
+                        <br><br>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-3  my-4">
+                <div class="card h-100">
+                    <img src="./images/hamburguesa-4.webp"alt="">
+                    <div class="card-body">
+                        <sap class="precio"><strong> $ 16900</strong></sapp>
+                        <h2 class="Nombreproducto"><strong>Kentucky Coronel Sandwich</strong></h2>
+                        <p class="Descripcionproducto">1 Kentucky Coronel hamburguesa / Sandwich (1 Filete de pechuga de pollo apanado, ensalada... )</p>
+                        <button class="btn btn-danger" type="button"> Comprar</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 my-4">
+                <div class="card h-100">
+                    <img src="./images/hamburguesa-5.webp" alt="">
+                    <div class="card-body">
+                        <sap class="precio"><strong> $ 21900</strong></sap>
+                        <h2 class="Nombreproducto"><strong>Combo Kentucky Sandwinch</strong></h2>
+                        <p class="Descripcionproducto">1 Kentucky hamburguersa / Sandwich  (1 Filete de pollo apanado, pepinillos,...)</p>
+                        <button class="btn btn-danger" type="button"> Comprar</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-3 my-4">
+                <div class="card h-100">
+                    <img src="./images/hamburguesa-6.webp"alt="">
+                    <div class="card-body">
+                        <sap class="precio"><strong> $ 22900</strong></sap>
+                        <h2 class="Nombreproducto"><strong>Combo Kentucky Coronel Sandwich</strong></h2>
+                        <p class="Descripcionproducto">1 Kentucky Coronel hamburguesa / sandwinch (1 Filete de pechuga de pollo apanado, Ensalada,..)</p>
+                        <button class="btn btn-danger" type="button"> Comprar</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-3 my-4" >
+                <div class="card h-100">
+                    <img src="./images/hamburguesa-7.webp"alt="">
+                    <div class="card-body">
+                        <sap class="precio"><strong> $ 23900</strong></sap>
+                        <h2 class="Nombreproducto"><strong>Sandwich Crispy BBQ </strong></h2>
+                        <p class="Descripcionproducto">1 Sandwich Crispy BBQ (1 Filete de pechuga exta grande , triple empanizado, cebolla crisp....)</p>
+                        <button class="btn btn-danger" type="button"> Comprar</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-3 my-4" >
+                <div class="card h-100">
+                    <img src="./images/hamburguesa-8.webp"alt="">
+                    <div class="card-body">
+                        <sap class="precio"><strong> $ 29900</strong></sap>
+                        <h2 class="Nombreproducto"><strong>Combo Sandwich Crispy BBQ</strong></h2>
+                        <p class="Descripcionproducto">1 Sandwich Crispy BBQ (1 Filete de pechuga extra grande, triple empanizado, cebolla crisp...)</p>
+                        <button class="btn btn-danger" type="button"> Comprar</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+    </section>
+    <footer class="foo">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 ">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, aspernatur magnam velit aliquam minima sed ipsa dolorum nesciunt, aperiam, suscipit id fugit. Voluptatibus distinctio minima ducimus. Ex adipisci corporis dignissimos?</p>
+
+                </div>
+                <div class="col-4 ">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, aspernatur magnam velit aliquam minima sed ipsa dolorum nesciunt, aperiam, suscipit id fugit. Voluptatibus distinctio minima ducimus. Ex adipisci corporis dignissimos?</p>
+
+                </div>
+                <div class="col-4 ">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, aspernatur magnam velit aliquam minima sed ipsa dolorum nesciunt, aperiam, suscipit id fugit. Voluptatibus distinctio minima ducimus. Ex adipisci corporis dignissimos?</p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
